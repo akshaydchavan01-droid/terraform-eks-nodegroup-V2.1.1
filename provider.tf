@@ -14,7 +14,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket         = "our-terraform-tfstate-file-bucket-6150"
+    bucket         = "server-backend-config-01"
     key            = "Server-terraform"
     region         = "ap-south-1"
     dynamodb_table = "my-dynamo-db-practice-1"
